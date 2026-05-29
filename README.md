@@ -137,43 +137,65 @@ Dynamic analytics dashboard
 - Extracted BHK from text fields  
 - Created luxury feature:
 
+python
+
+🧠 Feature Engineering
+
 ```python
-
 luxury = 1 if sqft > 3000 or bhk >= 4 else 0
+```
 
-3. Model Training
-Linear Regression
-Ridge Regression
-Random Forest
+---
 
-4. Model Evaluation
+## 🤖 Model Training
 
-Model Performance:
+* Linear Regression
+* Ridge Regression
+* Random Forest
 
-Linear Regression ~0.52
-Ridge Regression ~0.52
-Random Forest ~0.65
-📊 Visualizations
+---
+
+## 📊 Model Evaluation
+
+### Model Performance
+
+| Model             | Score |
+| ----------------- | ----- |
+| Linear Regression | ~0.52 |
+| Ridge Regression  | ~0.52 |
+| Random Forest     | ~0.65 |
+
+---
+
+## 📊 Visualizations
 
 All visual insights are stored in:
 
+```text
 visuals/
+```
+### Includes
 
-Includes:
+* Price distribution
+* BHK vs price
+* Correlation heatmap
+* Feature importance
+* Model comparison
+* Streamlit UI screenshots
 
-Price distribution
-BHK vs price
-Correlation heatmap
-Feature importance
-Model comparison
-Streamlit UI screenshots
+---
 
-🏗 Project Architecture
+## 🏗 Project Architecture
 
+```text
 data → cleaning → feature engineering → ML training → model saving → Streamlit app
+```
 
-📂 Project Structure
+---
 
+## 📂 Project Structure
+
+```text
 HousePricePrediction/
 
 ├── app/
@@ -202,17 +224,35 @@ HousePricePrediction/
 │
 ├── requirements.txt
 └── README.md
-⚙️ Tech Stack
+```
+
+---
 
 ## ⚙️ Tech Stack
 
-**Languages:** Python  
-**ML:** Scikit-learn, Pandas, NumPy  
-**Visualization:** Matplotlib, Seaborn, Plotly  
-**Frontend:** Streamlit  
+**Languages:** Python
+
+**ML:**
+
+* Scikit-learn
+* Pandas
+* NumPy
+
+**Visualization:**
+
+* Matplotlib
+* Seaborn
+* Plotly
+
+**Frontend:** Streamlit
+
 **Deployment:** Streamlit Cloud
 
-🚀 How to Run Locally
+---
+
+## 🚀 How to Run Locally
+
+```bash
 git clone https://github.com/saikrishna-211/house-price-prediction.git
 
 cd HousePricePrediction
@@ -220,34 +260,44 @@ cd HousePricePrediction
 pip install -r requirements.txt
 
 streamlit run app/app.py
-
-💡 Key Learnings
--End-to-end ML pipeline design
--Feature engineering for real-world datasets
--Model comparison and evaluation
--Recommendation system logic
--Building interactive dashboards
--Deploying ML apps using Streamlit
-
-🔥 Business Impact
-This project simulates a real-world property intelligence system that can be used for:
-
--Real estate price estimation
--Market trend analysis
--Property recommendation systems
--Investment decision support
+```
 
 ---
 
+## 💡 Key Learnings
+
+* End-to-end ML pipeline design
+* Feature engineering for real-world datasets
+* Model comparison and evaluation
+* Recommendation system logic
+* Building interactive dashboards
+* Deploying ML apps using Streamlit
+
+---
+
+## 🔥 Business Impact
+
+This project simulates a real-world property intelligence system that can be used for:
+
+* Real estate price estimation
+* Market trend analysis
+* Property recommendation systems
+* Investment decision support
+
+---
 
 ## 👨‍💻 Author
 
-**Sai Krishna**  
-B.Tech Computer Science Engineering  
+**Sai Krishna**
+B.Tech Computer Science Engineering
 
 💡 Machine Learning | Data Science | AI Systems
 
 ---
+
+<p align="center">
+⭐ If you like this project, please give it a star!
+</p>
 
 <p align="center">
   ⭐ If you like this project, please give a star!
