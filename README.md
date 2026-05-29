@@ -1,7 +1,8 @@
 # 🏡 Smart Real Estate Intelligence System
 
+
 <p align="center">
-  <img src="visuals/app_homepage.png" width="100%" />
+  <img src="visuals/dashboard.png" width="100%" />
 </p>
 
 <p align="center">
@@ -18,7 +19,7 @@
 ## 🚀 Live Demo
 
 <p align="center">
-  👉 https://your-streamlit-app.streamlit.app
+  👉 https://house-price-prediction-2026.streamlit.app
 </p>
 
 <p align="center">
@@ -140,6 +141,7 @@ Dynamic analytics dashboard
 - Created luxury feature:
 
 ```python
+
 luxury = 1 if sqft > 3000 or bhk >= 4 else 0
 
 3. Model Training
@@ -239,6 +241,7 @@ This project simulates a real-world property intelligence system that can be use
 -Investment decision support
 
 ---
+
 
 ## 👨‍💻 Author
 
