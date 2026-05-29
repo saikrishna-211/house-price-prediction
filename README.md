@@ -28,9 +28,6 @@
 
 ## 📌 Project Overview
 
-### 🏠 Home Page
-![Home Page](visuals/app_homepage.png)
-
 The Smart Real Estate Intelligence System is a production-style ML project that simulates a real-world property analytics platform similar to 99acres / Housing.com.
 
 It goes beyond simple prediction by integrating:
