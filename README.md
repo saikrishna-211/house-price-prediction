@@ -296,9 +296,5 @@ B.Tech Computer Science Engineering
 ---
 
 <p align="center">
-⭐ If you like this project, please give it a star!
-</p>
-
-<p align="center">
   ⭐ If you like this project, please give a star!
 </p>
